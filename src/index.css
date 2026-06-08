@@ -1,0 +1,25 @@
+.products {
+  padding: 40px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card button {
+  padding: 10px;
+  cursor: pointer;
+}

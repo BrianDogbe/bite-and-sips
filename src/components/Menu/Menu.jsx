@@ -17,7 +17,7 @@ function Menu() {
       : products.filter((p) => p.category === activeCategory);
 
   return (
-    <div className="menu-page">
+    <div id="menu" className="menu-page">
       <h2 className="menu-title">Our Menu</h2>
 
       {/* CATEGORY FILTER */}

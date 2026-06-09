@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Menu from "./components/Menu/Menu";
-import Cart from "./components/Cart/Cart";
+import CartPage from "./pages/CartPage";
 import Checkout from "./pages/Checkout";
 import Admin from "./pages/Admin";
 import OrderTracking from "./pages/OrderTracking";
@@ -16,11 +14,12 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/tracking" element={<OrderTracking />} />
         <Route path="/success" element={<OrderSuccess />} />
+       
       </Routes>
     </>
   );

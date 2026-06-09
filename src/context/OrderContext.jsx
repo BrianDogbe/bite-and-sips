@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 
+
 export const OrderContext = createContext();
 
 export function OrderProvider({ children }) { 
@@ -12,17 +13,23 @@ export function OrderProvider({ children }) {
     ? JSON.parse(savedOrders)
     : [];
 });
+useEffect(() => {
+  localStorage.setItem(
+    "orders",
+    JSON.stringify(orders)
+  );
+}, [orders]);
+
 
   const createOrder = (orderData) => {
-    const newOrder = {
-      id: Date.now(),
-      ...orderData,
-      status: "Pending",
-      createdAt: new Date().toLocaleString(),
-    };
-
-    setOrders((prev) => [...prev, newOrder]);
+  const newOrder = {
+    ...orderData,
+    status: "Pending",
+    createdAt: new Date().toLocaleString(),
   };
+
+  setOrders((prev) => [...prev, newOrder]);
+};
 
   const updateOrderStatus = (id, status) => {
     setOrders((prev) =>
@@ -47,6 +54,7 @@ export function OrderProvider({ children }) {
         updateOrderStatus,
         deleteOrder,
       }}
+      
     >
       {children}
     </OrderContext.Provider>

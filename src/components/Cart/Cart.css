@@ -86,6 +86,19 @@
   font-weight: bold;
 }
 
+.cart-note {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.cart-empty .checkout-btn {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
 /* BUTTONS */
 .checkout-btn {
   width: 100%;

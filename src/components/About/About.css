@@ -1,0 +1,48 @@
+.about {
+  padding: 80px 5%;
+  background: white;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 18px;
+}
+
+.about-stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.about-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-stat strong {
+  font-size: 2rem;
+  color: #f97316;
+}
+
+.about-stat span {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}

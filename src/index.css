@@ -152,3 +152,6 @@
     @apply font-sans;
   }
 }
+body {
+  background: #f6f7fb;
+}

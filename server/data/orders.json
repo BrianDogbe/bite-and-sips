@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1784800952143,
+    "customerName": "Brian",
+    "phone": "0545450878",
+    "address": "Tema",
+    "notes": "",
+    "fulfillment": "delivery",
+    "items": [
+      {
+        "id": 1,
+        "name": "Chicken Shawarma",
+        "category": "shawarma",
+        "price": 50,
+        "description": "House sauce & veggies",
+        "image": "/images/chicken-shawarma.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 55,
+    "status": "Delivered",
+    "createdAt": "7/23/2026, 10:02:32 AM",
+    "statusUpdatedAt": "2026-07-23T10:28:21.348Z",
+    "estimatedDeliveryAt": "2026-07-23T10:28:21.348Z"
+  },
+  {
+    "id": 1784803053206,
+    "customerName": "Dela",
+    "phone": "0545450878",
+    "address": "Tema",
+    "notes": "",
+    "fulfillment": "delivery",
+    "items": [
+      {
+        "id": 1,
+        "name": "Chicken Shawarma",
+        "price": 50,
+        "image": "/images/chicken-shawarma.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 55,
+    "promoCode": "",
+    "promoDiscount": 0,
+    "status": "Delivered",
+    "createdAt": "7/23/2026, 10:37:33 AM",
+    "createdAtIso": "2026-07-23T10:37:33.224Z",
+    "statusUpdatedAt": "2026-07-23T10:38:56.418Z",
+    "restaurantCoords": {
+      "lat": 5.6037,
+      "lng": -0.187
+    },
+    "deliveryCoords": {
+      "lat": 5.63256,
+      "lng": -0.18082114
+    },
+    "prepMinutes": 12,
+    "deliveryMinutes": 19,
+    "estimatedReadyAt": "2026-07-23T10:38:28.684Z",
+    "estimatedDeliveryAt": "2026-07-23T10:38:56.418Z"
+  },
+  {
+    "id": 1784804865821,
+    "customerName": "Brian",
+    "phone": "0505379028",
+    "address": "Pickup at Bite & Sips",
+    "notes": "",
+    "fulfillment": "pickup",
+    "items": [
+      {
+        "id": 3,
+        "name": "Mixed Shawarma",
+        "price": 50,
+        "image": "/images/mixed-shawarma.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 50,
+    "promoCode": "",
+    "promoDiscount": 0,
+    "status": "Delivered",
+    "createdAt": "7/23/2026, 11:07:45 AM",
+    "createdAtIso": "2026-07-23T11:07:45.825Z",
+    "statusUpdatedAt": "2026-07-23T11:10:49.087Z",
+    "restaurantCoords": {
+      "lat": 5.6037,
+      "lng": -0.187
+    },
+    "deliveryCoords": {
+      "lat": 5.6037,
+      "lng": -0.187
+    },
+    "prepMinutes": 12,
+    "deliveryMinutes": 0,
+    "estimatedReadyAt": "2026-07-23T11:09:21.669Z",
+    "estimatedDeliveryAt": "2026-07-23T11:10:49.087Z"
+  },
+  {
+    "id": 1784804934428,
+    "customerName": "Dela",
+    "phone": "0545450878",
+    "address": "Accra",
+    "notes": "",
+    "fulfillment": "delivery",
+    "items": [
+      {
+        "id": 6,
+        "name": "Beef Sandwich",
+        "price": 45,
+        "image": "/images/beef-sandwich.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 50,
+    "promoCode": "",
+    "promoDiscount": 0,
+    "status": "Delivered",
+    "createdAt": "7/23/2026, 11:08:54 AM",
+    "createdAtIso": "2026-07-23T11:08:54.431Z",
+    "statusUpdatedAt": "2026-07-23T11:12:30.705Z",
+    "restaurantCoords": {
+      "lat": 5.6037,
+      "lng": -0.187
+    },
+    "deliveryCoords": {
+      "lat": 5.63034,
+      "lng": -0.2123833599999998
+    },
+    "prepMinutes": 12,
+    "deliveryMinutes": 19,
+    "estimatedReadyAt": "2026-07-23T11:12:24.214Z",
+    "estimatedDeliveryAt": "2026-07-23T11:12:30.705Z"
+  },
+  {
+    "id": 1784804996891,
+    "customerName": "Dela",
+    "phone": "0545450878",
+    "address": "Tema",
+    "notes": "",
+    "fulfillment": "delivery",
+    "items": [
+      {
+        "id": 15,
+        "name": "Creamy Chocolate Milk",
+        "price": 20,
+        "image": "/images/chocolate-milk.jpg",
+        "quantity": 1
+      }
+    ],
+    "total": 25,
+    "promoCode": "",
+    "promoDiscount": 0,
+    "status": "Delivered",
+    "createdAt": "7/23/2026, 11:09:56 AM",
+    "createdAtIso": "2026-07-23T11:09:56.897Z",
+    "statusUpdatedAt": "2026-07-23T11:13:00.158Z",
+    "restaurantCoords": {
+      "lat": 5.6037,
+      "lng": -0.187
+    },
+    "deliveryCoords": {
+      "lat": 5.63256,
+      "lng": -0.18082114
+    },
+    "prepMinutes": 12,
+    "deliveryMinutes": 19,
+    "estimatedReadyAt": "2026-07-23T11:21:56.897Z",
+    "estimatedDeliveryAt": "2026-07-23T11:13:00.158Z"
+  }
+]

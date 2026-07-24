@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Shawarma",
+    "category": "shawarma",
+    "price": 50,
+    "description": "House sauce & veggies",
+    "image": "/images/chicken-shawarma.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Beef Shawarma",
+    "category": "shawarma",
+    "price": 50,
+    "description": "House sauce & veggies",
+    "image": "/images/beef-shawarma.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Mixed Shawarma",
+    "category": "shawarma",
+    "price": 50,
+    "description": "Chicken & beef",
+    "image": "/images/mixed-shawarma.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Tuna Sandwich",
+    "category": "sandwiches",
+    "price": 45,
+    "description": "Classic tuna filling",
+    "image": "/images/tuna-sandwich.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Chicken Sandwich",
+    "category": "sandwiches",
+    "price": 45,
+    "description": "Chicken, egg & veggies",
+    "image": "/images/chicken-sandwich.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Beef Sandwich",
+    "category": "sandwiches",
+    "price": 45,
+    "description": "Beef, egg & veggies",
+    "image": "/images/beef-sandwich.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Mixed Sandwich",
+    "category": "sandwiches",
+    "price": 45,
+    "description": "Chicken & beef",
+    "image": "/images/mixed-sandwich.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 8,
+    "name": "Plain Salad",
+    "category": "salads",
+    "price": 50,
+    "description": "Fresh greens & veggies",
+    "image": "/images/plain-salad.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 9,
+    "name": "Tuna & Egg Salad",
+    "category": "salads",
+    "price": 50,
+    "description": "Tuna with boiled egg",
+    "image": "/images/tuna-egg-salad.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "Chicken & Egg Salad",
+    "category": "salads",
+    "price": 50,
+    "description": "Grilled chicken with egg",
+    "image": "/images/chicken-egg-salad.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 11,
+    "name": "Veggie Fried Egg & Toast",
+    "category": "breakfast",
+    "price": 20,
+    "description": "Toasted bread",
+    "image": "/images/fried-egg-toast.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 12,
+    "name": "Toasted Chocolate Bread",
+    "category": "breakfast",
+    "price": 20,
+    "description": "",
+    "image": "/images/chocolate-bread.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 13,
+    "name": "Toasted Jam Bread",
+    "category": "breakfast",
+    "price": 20,
+    "description": "",
+    "image": "/images/jam-bread.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 14,
+    "name": "Pancakes",
+    "category": "breakfast",
+    "price": 10,
+    "description": "With syrups",
+    "image": "/images/pancakes.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 15,
+    "name": "Creamy Chocolate Milk",
+    "category": "milk",
+    "price": 20,
+    "description": "",
+    "image": "/images/chocolate-milk.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 16,
+    "name": "Strawberry Bliss Milk",
+    "category": "milk",
+    "price": 20,
+    "description": "",
+    "image": "/images/strawberry-milk.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 17,
+    "name": "Sobolo",
+    "category": "drinks",
+    "price": 10,
+    "description": "Refreshing hibiscus drink",
+    "image": "/images/sobolo.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 18,
+    "name": "Milo",
+    "category": "drinks",
+    "price": 15,
+    "description": "",
+    "image": "/images/milo.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 19,
+    "name": "Lipton",
+    "category": "drinks",
+    "price": 15,
+    "description": "",
+    "image": "/images/lipton.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 20,
+    "name": "Coffee",
+    "category": "drinks",
+    "price": 15,
+    "description": "",
+    "image": "/images/coffee.jpg",
+    "discountPercent": 0,
+    "available": true
+  },
+  {
+    "id": 21,
+    "name": "Mocha",
+    "category": "drinks",
+    "price": 15,
+    "description": "",
+    "image": "/images/mocha.jpg",
+    "discountPercent": 0,
+    "available": true
+  }
+]

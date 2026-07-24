@@ -1,48 +1,143 @@
 # Bite & Sips
 
-Food ordering web app inspired by Bolt Food: menu, cart, checkout with ETA, live order tracking + map, and a **hidden kitchen dashboard** with new-order alert sounds.
+A full-stack food ordering platform built for a cafeteria business. Customers can browse the menu, add items to cart, place orders, and track their orders. Admins can manage products, orders, and customer messages.
 
-## Stack
+## Live Demo
 
-- **Client:** React 19 + Vite + TypeScript + Leaflet (maps)
-- **Server:** Express API storing orders in `server/data/orders.json`
+Frontend:
+https://bite-and-sips.vercel.app
 
-## Quick start
+Backend API:
+https://bite-and-sips-server.onrender.com
+
+---
+
+## Features
+
+### Customer Features
+
+- Browse food and drinks menu
+- Category filtering
+- Add items to cart
+- Update cart quantities
+- Checkout and place orders
+- Track order status
+- Send contact messages
+
+### Admin Features
+
+- Admin dashboard
+- Manage products
+- View customer orders
+- Update order status
+- View customer messages
+- Delete orders/messages
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- React Router
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+
+### Deployment
+
+- Vercel (Frontend)
+- Render (Backend)
+
+---
+
+## Project Structure
+
+---
+
+```text
+bite-and-sips/
+│
+├── client/        # React + TypeScript frontend
+│
+├── server/        # Node.js + Express backend
+│
+└── README.md
+```
+
+---
+
+## Installation
+
+### Clone Repository
 
 ```bash
-# Terminal 1 — API
-cd server
-npm install
-npm run dev
+git clone https://github.com/BrianDogbe/bite-and-sips.git
 
-# Terminal 2 — frontend
+cd bite-and-sips
+```
+
+---
+
+## Frontend Setup
+
+```bash
 cd client
+
 npm install
+
 npm run dev
 ```
 
-Customer site: http://localhost:5173
+Create a `.env` file inside the `client` folder:
 
-### Kitchen (staff only — not linked on the customer site)
+```env
+VITE_API_URL=https://bite-and-sips-server.onrender.com
+```
 
-- Login: http://localhost:5173/kitchen/login
-- Dashboard: http://localhost:5173/kitchen
+---
 
-Default login: `admin` / `biteandsips2026`  
-Override with `ADMIN_USERNAME` / `ADMIN_PASSWORD` env vars on the server.
+## Backend Setup
 
-## Customer flow
+```bash
+cd server
 
-1. Browse menu → cart → checkout (see estimated prep + delivery time)
-2. Place order → kitchen gets a toast + alert sound
-3. Track Order → status timeline, countdown ETA, live courier map (delivery)
+npm install
 
-## Staff flow
+npm start
+```
 
-1. Open `/kitchen/login` (bookmark this; customers never see a link)
-2. Accept → Preparing → Ready → Out for delivery → Delivered
-3. Tracking page updates every few seconds
+Create a `.env` file based on:
 
-## Notes on “live location”
+```text
+.env.example
+```
 
-Courier position is **simulated** from kitchen → customer as status moves to **Out for delivery** (demo geocode from the address string around Accra). Real GPS would need a courier app later.
+---
+
+## 👨🏽‍💻 Author
+
+**Brian Dela Dogbe**
+
+Software Engineering Student  
+Ghana Communication Technology University
+
+GitHub:  
+https://github.com/BrianDogbe
+
+LinkedIn:  
+https://www.linkedin.com/in/brian-dogbe-186360332
+
+---
+
+## 📄 License
+
+This project is for learning and portfolio purposes.
